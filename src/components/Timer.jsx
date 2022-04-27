@@ -11,6 +11,8 @@ export const Timer = ({finalValue, initialValue}) => {
                     clearInterval(id);
                     return finalValue;
                 }
+
+    
                 return prev + 1;
             })
         }, 1000)
